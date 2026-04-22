@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "keryx": {
+      "transport": {
+        "type": "streamable-http",
+        "url": "https://your-device.your-tailnet.ts.net:10000/mcp"
+      }
+    }
+  }
+}

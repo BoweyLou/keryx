@@ -1,0 +1,38 @@
+vault_path: "/absolute/path/to/your/Obsidian/Vault"
+database_path: "./.data/keryx.db"
+
+api:
+  host: "127.0.0.1"
+  port: 8765
+
+mcp:
+  enabled: true
+  host: "127.0.0.1"
+  port: 8001
+  # Optional: add explicit host/origin allowlists when proxying Keryx
+  # through a private tailnet URL such as Tailscale Serve.
+  # Keep localhost entries implicit; only add extra trusted hosts here.
+  allowed_hosts: []
+  # Example:
+  # allowed_hosts:
+  #   - "your-device.your-tailnet.ts.net:*"
+  allowed_origins: []
+  # Example:
+  # allowed_origins:
+  #   - "https://your-device.your-tailnet.ts.net:*"
+
+semantic_enabled: true
+chunk_size: 600
+chunk_overlap: 80
+freshness_weight: 0.15
+project_weight: 0.25
+default_mode: "hybrid"
+allow_class_c: false
+allowed_targets:
+  - "00 Inbox"
+  - "01 Daily"
+  - "02 Projects"
+  - "03 Concepts"
+  - "05 References"
+  - "06 Summaries"
+  - "07 Tasks"

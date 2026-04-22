@@ -1,0 +1,24 @@
+# Phase Tracking
+
+- [x] Phase 1: Core platform
+  - [x] Config system
+  - [x] Vault parser
+  - [x] SQLite metadata and audit store
+  - [x] FTS and retrieval
+  - [x] Write policies and guarded mutations
+  - [x] FastAPI endpoints
+  - [x] CLI
+  - [x] Filesystem watcher
+- [x] Phase 2: MCP surface
+  - [x] MCP tools
+  - [x] MCP resources
+  - [x] MCP examples
+- [x] Phase 3: Semantic retrieval
+  - [x] Chunk embeddings abstraction
+  - [x] Semantic search
+  - [x] Hybrid search
+- [x] Delivery artifacts
+  - [x] `.env.example`
+  - [x] `config.example.yaml`
+  - [x] Templates
+  - [x] Setup and migration docs

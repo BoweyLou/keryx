@@ -1,0 +1,17 @@
+.DS_Store
+.env
+.env.local
+.pytest_cache/
+.venv/
+.data/
+__pycache__/
+*.pyc
+
+# Local machine config and generated service files
+local.config.yaml
+launchd/*.generated.plist
+
+# IDE/editor noise
+.idea/
+.vscode/
+
